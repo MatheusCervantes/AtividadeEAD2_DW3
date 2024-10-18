@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= title %>
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="mt-4">
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <img src="https://cdn3d.iconscout.com/3d/premium/thumb/sala-de-aula-12730905-10350051.png?f=webp"
+                alt="Ícone" width="14%">
+            <h1 class="text-body-emphasis">
+                <%= title %>
+            </h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted">
+                Essa aplicação web é um sistema de manutenção de salas de aula que faz parte de um módulo de controle
+                escolar. Ela exibe uma lista de salas cadastradas, apresentando informações como ID, descrição,
+                localização e capacidade de cada sala.
+            </p>
+            <div class="d-inline-flex gap-2 mb-5">
+                <a href="/manutSalaDeAula"
+                    class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill">
+                    Visualizar cadastros
+                    <ion-icon name="arrow-forward-outline" class="d-flex justify-content-center text-center pt-1 ps-2 fs-4"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
