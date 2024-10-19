@@ -11,7 +11,6 @@ Este repositório contém a atividade EAD de Desenvolvimento Web 3, onde foi des
 
 - **[Node.js](https://nodejs.org/en/)**: versão 20.17.0 ou superior.
 - **[PostgreSQL](https://www.postgresql.org/download/)**: Um banco de dados PostgreSQL configurado.
-- **[VSCode](https://code.visualstudio.com/)**: Editor de código recomendado para testar a API com a extensão **REST Client**.
 
 ## Passos para Rodar o Projeto
 
@@ -20,7 +19,7 @@ Este repositório contém a atividade EAD de Desenvolvimento Web 3, onde foi des
 Clone o repositório usando o comando abaixo:
 
 ```bash
-git clone https://github.com/MatheusCervantes/AtividadeEAD_DW3.git
+git clone https://github.com/MatheusCervantes/AtividadeEAD2_DW3.git
 ```
 
 ### 2. Instalar Dependências
@@ -28,7 +27,7 @@ git clone https://github.com/MatheusCervantes/AtividadeEAD_DW3.git
 Acesse o diretório do projeto e execute o comando para instalar as dependências:
 
 ```bash
-cd AtividadeEAD_DW3
+cd AtividadeEAD2_DW3
 npm install
 ```
 
